@@ -31,4 +31,9 @@ npm run testSms
 
 You should reviece a test message with the current date & time.
 
+Run the applacition using `npm run start`, or on Linux, use `run.sh`, which does this:
+
+```
+nohup npm run start 1> log 2> err &
+```
 
